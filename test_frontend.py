@@ -3,6 +3,7 @@ from PyQt6.QtWidgets import QApplication
 import sys
 from desktop_library_app import DesktopLibraryApp
 
+# Checks if the frontend GUI initializes with the correct window title.
 class FrontendTestCase(unittest.TestCase):
     @classmethod
     def setUpClass(cls):

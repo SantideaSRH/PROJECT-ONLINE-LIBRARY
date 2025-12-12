@@ -75,7 +75,7 @@ library_data = {
             "author": "Miguel de Cervantes",
             "date_published": "1605",
             "category": "Classic Satire",
-            "available": False
+            "available": True
         },
         {
             "name": "Alice's Adventures in Wonderland",

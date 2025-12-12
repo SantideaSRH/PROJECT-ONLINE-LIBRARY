@@ -1,6 +1,7 @@
 import unittest
 import requests
 
+# This test checks the integration between adding a book and renting it via the backend API.
 class IntegrationTestCase(unittest.TestCase):
     def test_add_and_rent_book(self):
         # Add a new book

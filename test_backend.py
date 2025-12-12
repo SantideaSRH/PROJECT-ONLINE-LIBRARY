@@ -1,6 +1,7 @@
 import unittest
 from backend import app
 
+# Checks if the backend API is running correctly
 class BackendTestCase(unittest.TestCase):
     def setUp(self):
         self.app = app.test_client()
